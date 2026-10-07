@@ -1,0 +1,16 @@
+# Ignore PDF lecture slides and textbooks
+*.pdf
+!SE3082_Lab10_IT24610803_Report.pdf
+
+# Ignore compiled binary objects and executables
+*.o
+*.obj
+*.exe
+*.out
+
+# Ignore temporary generation scripts
+__pycache__/
+*.py[cod]
+generate_lab10_notebook.py
+make_lab10_pdf.py
+report_lab10.html
